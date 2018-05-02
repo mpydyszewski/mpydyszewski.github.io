@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <title>Test Page: Don't Panic</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/main.css">
-  </head>
+  <head>
+  
+  <title>Gaaaalery | Test Page</title>
+
+
+  <meta name="description" content="This is a dangerous site.">
+
+  <link href="/favicon.png" rel="icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:100"
+  rel="stylesheet">
+  <link rel="stylesheet"
+        href="/fonts/fontawesome-free-5.0.10/web-fonts-with-css/css/fontawesome-all.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
 
   <body>
     <header class="header">
   <nav>
+    <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+    <label for="mobile-menu" class="show-mobile-menu">Menu</label>
     <ul class="header-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
-<li><a href="/2018/05/01/title-of-post.html">Newest Post</a></li>
+<li class="dropdown">
+  <span class="drop-trigger">Blog</span>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2018/05/02/title-of-second-post.html">This is the title of the post</a></li>
+    
+      <li><a href="/2018/05/01/title-of-post.html">This is the title of the post</a></li>
+    
+      <li><a href="/2018/04/03/title-of-another-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
+<li><a href="/2018/05/02/title-of-second-post.html">Newest Post</a></li>
 
     </ul>
   </nav>
@@ -54,8 +79,20 @@
     <ul class="footer-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
-<li><a href="/2018/05/01/title-of-post.html">Newest Post</a></li>
+<li class="dropdown">
+  <span class="drop-trigger">Blog</span>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li><a href="/2018/05/02/title-of-second-post.html">This is the title of the post</a></li>
+    
+      <li><a href="/2018/05/01/title-of-post.html">This is the title of the post</a></li>
+    
+      <li><a href="/2018/04/03/title-of-another-post.html">This is the title of the post</a></li>
+    
+  </ul>
+</li>
+<li><a href="/2018/05/02/title-of-second-post.html">Newest Post</a></li>
 
     </ul>
   </nav>
